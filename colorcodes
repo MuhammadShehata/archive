@@ -1,0 +1,131 @@
+#!/bin/sh
+
+# ***************************************************** #
+# * Color Code Script for Modular Scripting *           #
+# * Author: Author: Bill M., Dennis F., and Gabriel N * #
+# * HDUS Support *                                      #
+# * Date: 03-05-2017 *                                  #
+# * Version 0.3 *                                       #
+# ***************************************************** #
+
+############### 8 Bit Color Codes ###############
+# Standard Formatting
+RESET="\e[0m";
+BOLD="\e[1m";
+UNDERLINE="\e[2m";
+HIGHLIGHT="\e[3m";
+SHADE="\e[5m";
+DARKEN=$SHADE;          # Alias for SHADE
+SHADOW=$SHADE;          # Alias for SHADE
+CHMK="\xE2\x9C\x94"     # Makes a Checkmark
+
+# Colors (Basic)
+BLACK="\e[30m";
+RED="\e[31m";
+GREEN="\e[32m";
+YELLOW="\e[33m";
+BLUE="\e[34m";
+MAGENTA="\e[35m";
+PURPLE=$MAGENTA;        # Alias for MAGENTA
+CYAN="\e[36m";
+GREY="\e[37m";
+GRAY=$GREY;
+
+# Colors (Bright)
+BBLACK="\e[90m";
+BRED="\e[91m";
+PINK=$BRED;             # [PINK] Alias for BRED
+BGREEN="\e[92m";
+MINT=$BGREEN;           # [MINT] Alias for BGREEN
+BYELLOW="\e[93m";
+BBLUE="\e[94m";
+BGREEN="\e[95m";
+BMAGENTA="\e[96m";
+BPURPLE=$BMAGENTA;      # Alias for BMAGENTA
+BCYAN="\e[96m";
+BGREY="\e[96m";
+BGRAY=$BGREY;
+WHITE=$BGREY;           # [WHITE] Alias for BGREY
+
+# Legacy Colors
+BAD="\e[41m";           # White Text on Red Background;
+DARKGREY="\e[1;30m";
+DARKGRAY=$DARKGREY;
+
+############### Short Codes ###############
+# Short Standard Formatting
+fR=$RESET;              # Alias for RESET
+fB=$BOLD;               # Alias for BOLD
+fU=$UNDERLINE;          # Alias for UNDERLINE
+fH=$HIGHLIGHT;          # Alias for HIGHLIGHT
+fS=$SHADE;              # Alias for SHADE
+
+# Short Colors (Basic)
+cR=$RESET;              # Alias for RESET
+cN=$BLACK;              # Alias for BLACK (null/no color)
+cG=$GREEN;              # Alias for GREEN
+cY=$YELLOW;             # Alias for HIGHLIGHT
+cB=$BLUE;               # Alias for BLUE
+cM=$MAGENTA;            # Alias for MAGENTA
+cP=$PURPLE;             # Alias for PURPLE
+cC=$CYAN;               # Alias for CYAN
+
+# Short Colors (Bright)
+bR=$RESET;              # Alias for BRESET
+bN=$BBLACK;             # Alias for BBLACK (null/no color)
+bG=$BGREEN;             # Alias for BGREEN
+bY=$BYELLOW;            # Alias for BHIGHLIGHT
+bB=$BBLUE;              # Alias for BBLUE
+bM=$BMAGENTA;           # Alias for BMAGENTA
+bP=$BPURPLE;            # Alias for BPURPLE
+bC=$BCYAN;              # Alias for BCYAN
+
+# Short Legacy Colors
+BD="\e[1m";             # BOLD
+RS="\e[0;00m";          # RESET
+H1="\e[1m\e[34m";       # BOLD and BLUE
+H2="\e[1m\e[97m";       # BOLD and WHITE
+SH1="\e[1m\e[36m";      # BOLD and CYAN
+SH2="\e[1m\e[97m";      # BOLD and WHITE
+CM1="\e[1m\e[95m";      # BOLD and MAGENTA
+CM2="\e[1m\e[97m";      # BOLD and WHITE
+W1="\e[1m\e[97m";       # BOLD and WHITE
+#W1="\e[97m";           # WHITE
+R1="\e[31m";            # RED
+R2="\E[1;31m";          # SOFTER RED
+Y1="\e[1;33m";          # YELLOW
+G1="\e[1;32m";          # GREEN
+B1="\e[34m";            # BLUE
+C1="\e[36m";            # CYAN
+M1="\e[95m";            # MAGENTA
+G2="\e[90m";            # GRAY
+BL="\e[0;30m";          # BLACK
+DG="\e[1;30m";          # DARK GRAY
+
+# Symbols
+GCHMK="\e[32m\xE2\x9C\x94"; # Green Checkmark
+GCK=$GCHMK;             # Short code for Green Checkmark
+
+##### Reset Environment Variables
+
+# 1=""
+INPUTZ=""
+CHECKACCOUNT=""
+THEDOMAIN=""
+THEACCOUNT=""
+linenum=""
+inodes=""
+nobody=""
+userskip=""
+flag=""
+flag2=""
+grepip=""
+digip=""
+plan=""
+location=""
+line=""
+month=""
+day=""
+today=""
+host=""
+digns=""
