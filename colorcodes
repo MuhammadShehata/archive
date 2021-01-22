@@ -1,13 +1,5 @@
 #!/bin/sh
 
-# ***************************************************** #
-# * Color Code Script for Modular Scripting *           #
-# * Author: Author: Bill M., Dennis F., and Gabriel N * #
-# * HDUS Support *                                      #
-# * Date: 03-05-2017 *                                  #
-# * Version 0.3 *                                       #
-# ***************************************************** #
-
 ############### 8 Bit Color Codes ###############
 # Standard Formatting
 RESET="\e[0m";
