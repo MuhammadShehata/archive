@@ -25,4 +25,4 @@ dmidecode -t 17 |egrep "1333|1066|667|1067|2133|1600|1866"|uniq |grep -vi Config
 echo -e "-------------------------------------"
 echo -e "--Total RAM Installed-- "
 dmidecode -t 17 |grep Size|cut -c 7-30
-echo -e "====================================="
+echo -e "-------------------------------------"
