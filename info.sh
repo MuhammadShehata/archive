@@ -1,4 +1,7 @@
 #!/bin/bash
+echo "--Server Name--"
+hostname
+echo
 echo "--CPU Info--"
 echo "CPU : $(cat /proc/cpuinfo | grep "model name" | cut -d ":" -f 2 | head -1) / # of Cores : $(cat /proc/cpuinfo | grep proc -c)";
 echo -e "-------------------------------------"
